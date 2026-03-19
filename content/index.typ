@@ -12,7 +12,7 @@
 ]
 
 
-= 你好，不欢迎来到我的博客！
+= 你好，欢迎来到我的博客！
 
 这是一个基于 #link("https://typst.app/")[Typst] 和 #link("https://github.com/vsheg/tufted")[Tufted] 的静态网站构建模板，手把手教你搭建简洁、美观的个人博客、作品集和简历设计。
 
