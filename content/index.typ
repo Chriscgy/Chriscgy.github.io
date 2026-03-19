@@ -4,26 +4,23 @@
 // tufted.margin-note 可以让你在边栏中放置内容
 // 宽大的边栏是 tufte 样式的特点，将注释放于其中并与正文并排，便于对照
 #tufted.margin-note({
-  image("imgs/tufted-duck-female-with-duckling.webp")
-  image("imgs/tufted-duck-male.webp")
+  image("imgs/ksar.png")
 })
 
 #tufted.margin-note[
-  凤头潜鸭（学名 _Aythya fuligula_）是一种中型潜水鸭，原生于欧亚大陆。凭借卓越的潜水能力，它们能深入水下捕食猎物。
-]
-#tufted.margin-note[
-  The tufted duck (_Aythya fuligula_) is a medium-sized diving duck native to Eurasia. Known for its diving ability, it can plunge to great depths to forage for food.
+  户山香澄和市谷有咲（学名 _Toyama Kasumi and Ichigaya Arisa_）是一种中型乐队，原生于日本东京。凭借卓越的潜水能力，它们能深入livehouse捕食猎物。
 ]
 
-= Tufted 博客模板
+
+= 你好，不欢迎来到我的博客！
 
 这是一个基于 #link("https://typst.app/")[Typst] 和 #link("https://github.com/vsheg/tufted")[Tufted] 的静态网站构建模板，手把手教你搭建简洁、美观的个人博客、作品集和简历设计。
 
-#figure(caption: "网站示例")[#image("imgs/devices.webp")]
+#figure(caption: "ksar")[#image("imgs/trim_normal.png")]
 
-如果你通过访问本地地址（运行 `preview` 或其他本地服务）中看到了本页面，说明你已经成功安装了依赖、成功构建了网页、成功运行了预览。恭喜你！
 
-想要使用这个模板编写你自己的网站，你需要学会使用 Typst。放心，非常好上手。
+
+想要使用这个模板编写你自己的网站，你需要学会使用 Typst。放心，很难上手。
 
 我在目前的网站中包含了尽可能多的 Typst 用例#footnote[例如文字、段落、分级标题、引用块、代码块、有序列表、无序列表、表格、图片、公式、链接、脚注、参考文献、嵌入 markdown 等。这块文字便是脚注，使用 `#footnote()` 函数编写。]，你可以在源代码中看到这些内容的 Typst 实现。我也包含了丰富的文档来帮助你编写页面和部署网站，你可以在 #link("/Docs/")[Docs] 页看到这些文档。
 
